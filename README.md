@@ -1,5 +1,5 @@
 # Matrix42-EmpCrypt
-Matrix42 executable and DLL to decrypt password hashes.
+Matrix42 executable and DLL to generate or decrypt password hashes (v14.2).
 
 ## How to
 
@@ -10,6 +10,10 @@ dpkg --add-architecture i386 && apt-get update && apt-get install wine32:i386
 
 # delete configuration dir to force config-renewal
 rm -rf ~/.wine
+
+# create hash
+# the hash will be generated and stored in the clipboard only, no printout
+wine EmpCrypt.exe /SYNC "P@ssw0rd"
 
 # decrypt Matrix42 hashes
 # the password will be decrypted and stored in the clipboard only, no printout
