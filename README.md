@@ -13,6 +13,9 @@ sudo apt install wine
 # optional; delete configuration dir to force config-renewal
 rm -rf ~/.wine
 
+# clone this repository
+git clone https://github.com/Haxxnet/Matrix42-EmpCrypt && cd Matrix42-EmpCrypt
+
 # create hash
 # the hash will be generated and stored in the clipboard only, no printout
 wine EmpCrypt.exe /SYNC "P@ssw0rd"
