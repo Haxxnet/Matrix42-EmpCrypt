@@ -20,7 +20,7 @@ git clone https://github.com/Haxxnet/Matrix42-EmpCrypt && cd Matrix42-EmpCrypt
 # the hash will be generated and stored in the clipboard only, no printout
 wine EmpCrypt.exe /SYNC "P@ssw0rd"
 
-# decrypt Matrix42 hashes
+# decrypt hash
 # the password will be decrypted and stored in the clipboard only, no printout
 wine EmpCrypt.exe /D /SYNC "4CC7FE0A2C9F92BA646E4F89775D8DC3F5C4CC3D1F65142565D0167E56E6929F4BBD5C6F129C8F33303E53141A6F31C1"
 ````
